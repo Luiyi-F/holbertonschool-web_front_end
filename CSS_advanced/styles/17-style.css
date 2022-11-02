@@ -101,7 +101,7 @@ a:active {
     color: var(--section-title-color);
 }
 
-section {
+.section {
     padding: var(--section-padding);
 }
 
@@ -117,7 +117,7 @@ section {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    width: var(--section-footer-align);
+    text-align: var(--section-footer-align);
 }
 
 footer {

@@ -76,7 +76,7 @@ h6 {
 }
 
 a {
-    color: #161616;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -95,6 +95,9 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
+}
+.visually-hidden{
+    display: none;
 }
 
 *,
@@ -232,7 +235,7 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
-    --button-color: var(--color-white)
+    --button-color: var(--color-white);
 }
 
 .footer-address {
@@ -259,7 +262,7 @@ ul.row {
 
 .card-services a:hover {
     color: var(--color-white);
-    background: var(--color-primary);
+    background-color: var(--color-primary);
     text-decoration: none;
 }
 
